@@ -66,6 +66,7 @@ body {
   z-index: 100;
   padding-top: 10px;
   background-color: #fff;
+  color : black;
   }
   
   .todo-list-grid {
