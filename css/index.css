@@ -55,7 +55,7 @@ body {
   
   .sidebar {
   border:none;
-    box-shadow: 5px 5px black; 
+    box-shadow: 2px 2px gray; 
   display: flex;
   flex-direction: column;
   align-content: center;
