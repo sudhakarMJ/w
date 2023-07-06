@@ -32,7 +32,9 @@ body {
     margin-left: 20px;
     }
     
-    
+    .wel{
+     font-weight: bold;
+    }
     
     .add-friend-button {
     background-color: rgb(30, 104, 8);
