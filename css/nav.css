@@ -1,0 +1,76 @@
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: fixed ;
+  top: 48px;
+  bottom: 0px;
+  left: 0px;
+  width: 120px;
+  z-index: 100;
+  padding-top: 10px;
+  background-color: #fff;
+  color : black;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+ 
+  }
+
+  
+  .email-dropbtn,
+  .links-dropbtn,
+  .dropbtn {
+    background-color: transparent;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 110px;
+
+  }
+  .email-dropdown,
+  .links-dropdown,
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .email-dropdown-content,
+  .links-dropdown-content,
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #12afec;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .email-dropdown-content a,
+  .links-dropdown-content a,
+  .dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .email-dropdown-content a:hover,
+  .links-dropdown-content a:hover,
+  .dropdown-content a:hover {background-color: #f10707}
+  
+  .email-dropdown:hover .email-dropdown-content,
+  .links-dropdown:hover .links-dropdown-content,
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .email-dropdown:hover .email-dropbtn,
+  .links-dropdown:hover .links-dropbtn,
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  
+ 
