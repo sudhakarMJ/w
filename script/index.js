@@ -18,8 +18,8 @@ const todoList = JSON.parse(localStorage.getItem('todoList')) || [{
   const { name, dueDate, checked } = todoObject;
   const html = `
   <input type = "checkbox" class="js-myCheckbox myCheckbox" ${checked ? 'checked' : ''}>
-  <div>${name}</div>
-  <div class"name">${dueDate}</div>
+  <div class"name">${name}</div>
+  <div>${dueDate}</div>
   <button class="delete-button js-delete-button">Delete</button>`;
   
   todoListHTML += html;
