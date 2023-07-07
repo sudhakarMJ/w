@@ -12,6 +12,7 @@
     margin-left: 40px;
   }
   .todo-list-grid {
+    white-space:nowrap;
     display: grid;
     grid-template-columns: 20px 330px 150px 100px;
     row-gap: 15px;
