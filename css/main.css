@@ -17,11 +17,11 @@
     row-gap: 15px;
     column-gap: 10px;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 40px;
     }
     .input-grid {
     display: grid;
-    grid-template-columns: 250px 250px 120px;
+    grid-template-columns: 360px 150px 120px;
     row-gap: 10px;
     column-gap: 10px;
     align-items: center;
