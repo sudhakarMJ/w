@@ -13,7 +13,7 @@
   }
   .todo-list-grid {
     display: grid;
-    grid-template-columns: 20px 330px 100px 150px;
+    grid-template-columns: 20px 330px 130px 150px;
     row-gap: 15px;
     column-gap: 10px;
     align-items: center;
