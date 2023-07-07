@@ -1,4 +1,4 @@
-const todoList = JSON.parse(localStorage.getItem('todoList')) || [{
+/* const todoList = JSON.parse(localStorage.getItem('todoList')) || [{
     name:'Check email',
     dueDate: '01/22/2023',
     checked: false
@@ -75,4 +75,4 @@ const todoList = JSON.parse(localStorage.getItem('todoList')) || [{
     
     function saveToStorage() {
     localStorage.setItem('todoList', JSON.stringify(todoList));
-    }
+    } */
