@@ -19,6 +19,7 @@
       column-gap: 10px;
       align-items: center;
       margin-left: 40px;
+      white-space: normal;
       }
       .input-grid {
       display: grid;
@@ -31,7 +32,7 @@
       align-items: stretch; 
       }
       .name {
-      overflow-wrap: break-word;
+       overflow-wrap: break-word;
        }
       .input-name,
       .due-date  {
