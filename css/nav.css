@@ -16,8 +16,6 @@
  
   }
 
-  
-  .email-dropbtn,
   .links-dropbtn,
   .dropbtn {
     background-color: transparent;
@@ -29,7 +27,18 @@
     margin-top: 10px;
     margin-left: 5px;
     width: 110px;
-
+  
+  }
+  .email-dropbtn {
+     background-color: transparent;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 800px;
+    margin-left: 5px;
+    width: 110px;
   }
   .email-dropdown,
   .links-dropdown,
