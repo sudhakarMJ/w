@@ -3,6 +3,8 @@
     }
    
     .main {
+        display: block;
+      width: 100%;    
       background-color: #e1e6eb;
       margin-left: 110px;
       height: 1000px;
@@ -12,6 +14,8 @@
       margin-left: 40px;
     }
     .todo-list-grid {
+         display: block;
+      width: 100%;    
       white-space:nowrap;
       display: grid;
       grid-template-columns: 20px 260px 150px 100px;
@@ -22,6 +26,8 @@
       white-space: normal;
       }
       .input-grid {
+           display: block;
+      width: 100%;    
       display: grid;
       grid-template-columns: 290px 150px 100px;
       row-gap: 15px;
