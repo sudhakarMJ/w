@@ -61,6 +61,27 @@
   </div>
   <div class="js-todo-list todo-list-grid"></div>
 </main>
+ <footer>
+  <fieldset>
+    <legend>Add notification</legend>
+    <textarea id="txtNotifyMsg" placeholder="Your notification" ></textarea>
+    <br />
+    <input type="date" id="notifydate" />
+    <br />
+    <br />
+    <button id="btnAddNotification">Add notification</button>
+</fieldset>
+
+<ul id="ulAllNotifications"></ul>
+
+<div id="divNotificationArea" onclick="document.body.className=''">
+<div class="dialogBody">    
+  <h3>Tings you need to remember today:</h3>
+  <ul id="ulNotifications"></ul>
+</div>
+</div>
+
+ </footer>
 <script src="script/index.js"></script>
 <script>
     
