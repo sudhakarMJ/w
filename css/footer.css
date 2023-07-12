@@ -1,5 +1,8 @@
 .footer {
   margin-left:200px;
+  font-family: 'Roboto', sans-serif; 
+  display: block;    
+  background-color: #e1e6eb; 
 }
 
 fieldset{ max-width: 300px;}
