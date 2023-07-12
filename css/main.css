@@ -53,6 +53,8 @@
       }
   
       .delete-button {
+      display: block;
+      width: 100%    
       background-color: darkred;
       color: white;
       border: none;
