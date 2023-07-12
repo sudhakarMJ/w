@@ -36,7 +36,8 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-    margin-top: 800px;
+   position: fixed ;
+    bottom: 10px;
     margin-left: 5px;
     width: 110px;
   }
