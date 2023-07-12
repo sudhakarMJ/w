@@ -31,7 +31,7 @@ function showNotifications(){
     notifyCnt++;
     const li = document.createElement('li');
     li.innerHTML = `"${notification.msg}"`;
-    alert( `"${notification.msg}"`;);
+    alert( `"${notification.msg}"`);
     ulNotifications.appendChild(li);
   });
   if(notifyCnt>0){
