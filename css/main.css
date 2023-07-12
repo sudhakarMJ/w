@@ -1,11 +1,11 @@
     body {
         font-family: 'Roboto', sans-serif;
+        background-color: #e1e6eb;
     }
    
     .main {
         display: block;
-      width: 100%;    
-      background-color: #e1e6eb;
+      width: 100%;    
       margin-left: 110px;
       height: 1000px;
       padding-top: 50px;
