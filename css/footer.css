@@ -1,3 +1,7 @@
+.footer {
+  margin-left:40px;
+}
+
 fieldset{ max-width: 300px;}
 fieldset>textarea{width:100%}
 fieldset>button{float:right}
