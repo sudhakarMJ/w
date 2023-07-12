@@ -49,12 +49,12 @@
       font-size: 15px;
       border: none;
       cursor: pointer;
-           
+      padding:10px     
       }
   
       .delete-button {
       display: block;
-      width: 100%    
+      width: 100% ;   
       background-color: darkred;
       color: white;
       border: none;
