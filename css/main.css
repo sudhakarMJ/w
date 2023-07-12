@@ -42,14 +42,14 @@
       }
   
       .add-button {
+      display: block;
+      width: 100%;    
       color: white;
       background-color: green;
       font-size: 15px;
       border: none;
       cursor: pointer;
-      margin-left: 10px;
-      padding-left: 20px;    
-      padding-right: 20px;
+           
       }
   
       .delete-button {
