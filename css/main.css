@@ -48,7 +48,8 @@
       border: none;
       cursor: pointer;
       margin-left: 10px;
-  
+      padding-left:10px;    
+      padding-right:10px;
       }
   
       .delete-button {
