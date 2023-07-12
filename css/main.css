@@ -24,7 +24,7 @@
       .input-grid {
       display: grid;
       grid-template-columns: 290px 150px 100px;
-      row-gap: 10px;
+      row-gap: 15px;
       column-gap: 20px;
       align-items: center;
       margin-left: 40px;
