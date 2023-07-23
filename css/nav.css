@@ -14,7 +14,7 @@
   color : black;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
  
-  }
+  }.html-projects-dropbtn,
   .email-dropbtn,
   .links-dropbtn,
   .dropbtn {
@@ -34,13 +34,21 @@
     color: transparent;
     margin-top: 20px;
    }
+
+    .html-projects-dropbtn{
+     background-color: transparent;
+    color: transparent;
+    margin-top: 20px;
+    }
+  .html-projects-dropdown,
   .email-dropdown,
   .links-dropdown,
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+
+  .html-projects-dropdown-content,
   .email-dropdown-content,
   .links-dropdown-content,
   .dropdown-content {
@@ -51,6 +59,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
+  .html-projects-dropdown-content a,
   .email-dropdown-content a,
   .links-dropdown-content a,
   .dropdown-content a {
@@ -59,16 +68,19 @@
     text-decoration: none;
     display: block;
   }
+  .html-projects-dropdown-content a:hover,
   .email-dropdown-content a:hover,
   .links-dropdown-content a:hover,
   .dropdown-content a:hover {background-color: #f10707}
-  
+
+  .html-projects-dropdown:hover .html-projects-dropdown-content,
   .email-dropdown:hover .email-dropdown-content,
   .links-dropdown:hover .links-dropdown-content,
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+
+  .html-projects-dropdown:hover .html-projects-dropbtn,
   .email-dropdown:hover .email-dropbtn,
   .links-dropdown:hover .links-dropbtn,
   .dropdown:hover .dropbtn {
