@@ -45,6 +45,7 @@
   .email-dropdown,
   .links-dropdown,
   .dropdown {
+    margin-bottom:40px;
     position: relative;
     display: inline-block;
   }
